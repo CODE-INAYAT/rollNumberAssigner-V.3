@@ -265,7 +265,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 29%, rgba(28,145,169,1) 91%);
   animation: typing 8s steps(2000, end); /* Adjust duration and steps as needed */
 }
 
-.typing-animation2 {
+#typing-animation2 {
   overflow: hidden; /* Hide overflowing text */
   white-space: nowrap; /* Prevent text from wrapping */
   animation: typing 3s steps(100, end); /* Adjust duration and steps as needed */
@@ -421,7 +421,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 29%, rgba(28,145,169,1) 91%);
 <!-- Alert Modal -->
 <div class="fixed z-50 inset-0 flex justify-center items-center" id="alertModal" style="display: none;">
     <div class="bg-white p-6 rounded shadow-lg text-center">
-        <p class="mb-4 typing-animation2">All The Names Will Be Sorted In Alphabetical Order With Respect To SurName.</p>
+        <p class="mb-4" id = "typing-animation2">All The Names Will Be Sorted In Alphabetical Order With Respect To SurName.</p>
         <button id="continueButton" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 pulse-element"><p class="typing-animation2">Continue</p></button>
     </div>
 </div>
